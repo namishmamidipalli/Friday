@@ -13,6 +13,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Location: \n \(locationManager.location?.coordinate.latitude ?? 0.0),  \(locationManager.location?.coordinate.longitude ?? 0.0)")
+            
+                .padding()
+            
         }
         .padding()
     }
